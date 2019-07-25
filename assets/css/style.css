@@ -1,0 +1,25 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(assets/images/interlaced.png);
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-link:hover {
+    color: #17a2b8;
+}
+
+.card-body {
+    color: white;
+    padding: 0px;
+}
+

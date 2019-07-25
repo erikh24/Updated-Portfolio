@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
+
+    <!-- Link to Font Awesome -->
+    <script src="https://kit.fontawesome.com/2f14113866.js"></script>
+
+    <!-- Link to CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/portfolio-style.css">
+
+    <title>Erik's Bootstrap Portfolio</title>
+
+</head>
+
+<body class="d-flex flex-column h-100">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark py-0">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <h1 class="bg-info text-white my-0 p-3">Erik Halbakken</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+        
+                            <div class="accordion" id="accordionEmail">
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="collapse" data-target="#email" aria-expanded="true"
+                                        aria-controls="emial"><i class="far fa-envelope"> </i></a>
+                                    <div id="email" class="collapse" aria-labelledby="headingOne" data-parent="#accordionEmail">
+                                        <div class="card-body">
+                                            erikhalbakken@gmail.com
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+        
+                            <div class="accordion" id="accordionPhone">
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="collapse" data-target="#phone" aria-expanded="true"
+                                        aria-controls="phone"><i class="fas fa-mobile-alt"> </i></a>
+                                    <div id="phone" class="collapse" aria-labelledby="headingOne" data-parent="#accordionPhone">
+                                        <div class="card-body">
+                                            425-736-6799
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+        
+        
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" data-toggle="modal" data-target="#exampleModal"> <i
+                                        class="fas fa-mobile-alt"></i></a>
+                            </li> -->
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.linkedin.com/in/erik-halbakken24/" target="_blank"> <i
+                                        class="fab fa-linkedin"></i></a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/erikh24" target="_blank"> <i
+                                        class="fab fa-github"></i></a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+        
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+    <div class="container bg-info text-dark my-5 p-5 flex-shrink-0">
+        <div class="row">
+            <div class="col-sm">
+                <h1>Portfolio</h1>
+                <hr class="hr bg-light" />
+            </div>
+        </div>
+
+
+        <div class="row justify-content-sm-center">
+            <div class="col-sm-6">
+                <div class="card text-center" style="width:300px">
+                    <img class="card-img-responsive" src="assets/images/buy-together_250x250.jpg"
+                        alt="Online shopping image">
+                    <div class="card-body">
+                        <h4 class="card-title">Buy Together Project</h4>
+                        <a href="https://erikh24.github.io/Group-Project-1/" class="btn btn-info">Launch</a>
+                        <br>
+                        <a href="https://github.com/erikh24/Group-Project-1"><i class="fab fa-github" id=git-logo></i></a>
+                    </div>
+                </div>
+
+                <div class="mt-3"></div>
+
+                <div class="card text-center" style="width:300px">
+                    <img class="card-img-responsive" src="assets/images/trivia.jpg" alt="Question mark logo">
+                    <div class="card-body">
+                        <h4 class="card-title">Trivia Game</h4>
+                        <a href="https://erikh24.github.io/TriviaGame/" class="btn btn-info">Play</a>
+                        <br>
+                        <a href="https://github.com/erikh24/TriviaGame"><i class="fab fa-github" id=git-logo></i></a>
+                    </div>
+                </div>
+
+                <div class="mt-3"></div>
+
+                <div class="card text-center" style="width:300px">
+                    <img class="card-img-responsive" src="assets/images/coming-soon_250x250.jpg"
+                        alt="Black square with coming soon in white">
+                    <div class="card-body">
+                        <h4 class="card-title"></h4>
+                        <a href="#" class="btn btn-info disabled">Coming Soon</a>
+                        <br>
+                        <a class="btn disabled"><i class="fab fa-github" id=git-logo></i></a>
+                    </div>
+                </div>
+
+                <div class="mt-3"></div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card text-center" style="width:300px">
+                        <img class="card-img-responsive" src="assets/images/train-schedule_250x250.jpg"
+                            alt="Train schedule">
+                        <div class="card-body">
+                            <h4 class="card-title">Train Scheduler</h4>
+                            <a href="https://erikh24.github.io/Train-Scheduler/" class="btn btn-info">Launch</a>
+                            <br>
+                            <a href="https://github.com/erikh24/Train-Scheduler"><i class="fab fa-github" id=git-logo></i></a>
+                        </div>
+                    </div>
+
+                    <div class="mt-3"></div>
+
+                    <div class="card text-center" style="width:300px">
+                        <img class="card-img-responsive" src="assets/images/coming-soon_250x250.jpg"
+                            alt="Black square with coming soon in white">
+                        <div class="card-body">
+                            <h4 class="card-title"></h4>
+                            <a href="#" class="btn btn-info disabled">Coming Soon</a>
+                            <br>
+                            <a class="btn disabled"><i class="fab fa-github" id=git-logo></i></a>
+                        </div>
+                    </div>
+                    <div class="mt-3"></div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer mt-auto py-3 bg-dark text-light">
+        <div class="container">
+            <p class="text-center">Copyright &#169;</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+
+</html>
